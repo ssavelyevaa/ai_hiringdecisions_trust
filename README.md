@@ -40,3 +40,29 @@ Only features plausibly available at application time were included
 **Conclusion**
 
 AI is best used as a decision-support tool in hiring rather than a fully autonomous decision-maker. Confidence-aware human oversight is essential for responsible deployment.
+
+---
+
+**Extension: Evaluating AI Autonomy Levels**
+
+Building on the initial analysis, this extension evaluates how outcomes change as **AI autonomy increases**, comparing three system designs:
+
+1. **Human-only:** Humans review all candidates (0% automation, highest effort)  
+2. **Assistive AI (human-in-the-loop):** AI auto-rejects only high-confidence cases; humans review the rest  
+3. **Autonomous AI:** AI makes all accept/reject decisions without human oversight  
+
+**Results Summary**
+
+- Assistive AI automates a small fraction of cases while dramatically limiting exposure to automated error  
+- Fully autonomous AI increases false rejections nearly sevenfold while offering limited practical benefit  
+- Increasing autonomy introduces **disproportionate risk relative to efficiency gains**  
+
+**Interpretation**
+
+These results show that autonomy does not scale linearly with benefit. In high-stakes contexts like hiring, restricting automation to high-confidence cases and preserving human oversight is essential for responsible deployment.
+
+**Conclusion**
+
+AI systems can meaningfully support hiring decisions, but they should not replace human judgment.  
+Confidence-aware, human-in-the-loop designs balance efficiency with fairness and risk control, aligning better with real-world decision-making requirements.
+
